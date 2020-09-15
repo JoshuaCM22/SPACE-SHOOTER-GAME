@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SPACE_SHOOTER_GAME</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <StartupObject>SPACE_SHOOTER_GAME.App</StartupObject>
+    <Description>Created by: Joshua C. Magoliman</Description>
+    <ApplicationIcon>player.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\enemy_1.png" />
+    <None Remove="Images\enemy_2.png" />
+    <None Remove="Images\enemy_3.png" />
+    <None Remove="Images\enemy_4.png" />
+    <None Remove="Images\enemy_5.png" />
+    <None Remove="Images\muted.png" />
+    <None Remove="Images\player.png" />
+    <None Remove="Images\space_background.png" />
+    <None Remove="Images\unmuted.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\enemy_1.png" />
+    <Resource Include="Images\enemy_2.png" />
+    <Resource Include="Images\enemy_3.png" />
+    <Resource Include="Images\enemy_4.png" />
+    <Resource Include="Images\enemy_5.png" />
+    <Resource Include="Images\muted.png" />
+    <Resource Include="Images\player.png" />
+    <Resource Include="Images\space_background.png" />
+    <Resource Include="Images\unmuted.png" />
+  </ItemGroup>
+
+</Project>

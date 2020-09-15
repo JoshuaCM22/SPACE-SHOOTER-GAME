@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SPACE SHOOTER GAME/1.0.0": {
+        "runtime": {
+          "SPACE SHOOTER GAME.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SPACE SHOOTER GAME/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
